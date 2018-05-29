@@ -18,6 +18,17 @@
                                 <PersistentState>
                                   <option name="children">
                                     <map>
+                                      <entry key="backgroundImage">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="scalingPercent" value="13" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
                                       <entry key="foregroundImage">
                                         <value>
                                           <PersistentState>
@@ -33,8 +44,12 @@
                                   </option>
                                   <option name="values">
                                     <map>
+                                      <entry key="backgroundLayerName" value="sfondo" />
                                       <entry key="foregroundImage" value="C:\Users\Cimberton\Pictures\2660.png" />
                                       <entry key="foregroundLayerName" value="icona" />
+                                      <entry key="generateRoundIcon" value="false" />
+                                      <entry key="legacyIconShape" value="NONE" />
+                                      <entry key="webIconShape" value="NONE" />
                                     </map>
                                   </option>
                                 </PersistentState>
