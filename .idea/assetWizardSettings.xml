@@ -13,6 +13,27 @@
                       <PersistentState>
                         <option name="children">
                           <map>
+                            <entry key="actionbar">
+                              <value>
+                                <PersistentState>
+                                  <option name="children">
+                                    <map>
+                                      <entry key="clipartAsset">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="url" value="jar:file:/D:/android%20studio/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_search_black_24dp.xml" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
                             <entry key="launcher">
                               <value>
                                 <PersistentState>
@@ -34,6 +55,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
+                                                <entry key="scalingPercent" value="20" />
                                                 <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
@@ -45,9 +67,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundLayerName" value="sfondo" />
-                                      <entry key="foregroundImage" value="C:\Users\Cimberton\Pictures\2660.png" />
+                                      <entry key="foregroundImage" value="C:\Users\adriano\Desktop\Ic_search_48px.svg.png" />
                                       <entry key="foregroundLayerName" value="icona" />
-                                      <entry key="generateRoundIcon" value="false" />
                                       <entry key="legacyIconShape" value="NONE" />
                                       <entry key="webIconShape" value="NONE" />
                                     </map>
@@ -55,6 +76,37 @@
                                 </PersistentState>
                               </value>
                             </entry>
+                            <entry key="launcherLegacy">
+                              <value>
+                                <PersistentState>
+                                  <option name="children">
+                                    <map>
+                                      <entry key="clipartAsset">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="url" value="jar:file:/D:/android%20studio/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_search_black_24dp.xml" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="outputName" value="ic_ricerca" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                        <option name="values">
+                          <map>
+                            <entry key="outputIconType" value="ACTIONBAR" />
                           </map>
                         </option>
                       </PersistentState>
