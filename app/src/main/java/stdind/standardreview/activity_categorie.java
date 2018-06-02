@@ -13,6 +13,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.GridView;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import android.widget.AdapterView;
 
 public class activity_categorie extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -23,19 +28,27 @@ public class activity_categorie extends AppCompatActivity
         setContentView(R.layout.activity_categorie);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout_cat);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
-
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view_cat);
         navigationView.setNavigationItemSelectedListener(this);
+
+        String[] Categorie = new String[]{"A","B","C","D"};
+        ArrayList<String> lista = new ArrayList<String>();
+        for(int i = 0; i < Categorie.length; i++){
+            lista.add(Categorie[i]);
+        }
+        final GridView GV = (GridView) findViewById(R.id.categorie_dynamic);
+        ArrayAdapter<String> adattatore = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, lista);
+        GV.setAdapter(adattatore);
     }
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout_cat);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
@@ -85,7 +98,7 @@ public class activity_categorie extends AppCompatActivity
 
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout_cat);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
