@@ -94,4 +94,9 @@ public class MainActivity extends AppCompatActivity
         //drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+    public void presssettings(){
+        startActivity(new Intent(MainActivity.this, activity_settings.class));
+
+    }
 }
