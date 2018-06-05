@@ -64,6 +64,7 @@ public class activity_categorie extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            startActivity(new Intent(activity_categorie.this, activity_settings.class));
             return true;
         }
 
