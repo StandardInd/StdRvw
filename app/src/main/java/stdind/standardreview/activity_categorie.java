@@ -36,14 +36,6 @@ public class activity_categorie extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view_cat);
         navigationView.setNavigationItemSelectedListener(this);
 
-        String[] Categorie = new String[]{"A","B","C","D"};
-        ArrayList<String> lista = new ArrayList<String>();
-        for(int i = 0; i < Categorie.length; i++){
-            lista.add(Categorie[i]);
-        }
-        final GridView GV = (GridView) findViewById(R.id.categorie_dynamic);
-        ArrayAdapter<String> adattatore = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, lista);
-        GV.setAdapter(adattatore);
     }
 
     @Override
