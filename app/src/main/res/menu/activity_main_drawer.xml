@@ -25,5 +25,9 @@
         <item
             android:id="@+id/nav_crediti"
             android:title="Crediti" />
+        <item
+            android:id="@+id/nav_aggiungi_un_topic"
+            android:title="Aggiungi un topic" />
+
     </group>
 </menu>

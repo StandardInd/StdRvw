@@ -77,7 +77,7 @@ public class activity_categorie extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-
+            startActivity(new Intent(activity_categorie.this, MainActivity.class));
         } else if (id == R.id.nav_account) {
 
         } else if (id == R.id.nav_myreview) {

@@ -85,6 +85,9 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_crediti) {
 
+        } else if (id == R.id.nav_aggiungi_un_topic) {
+
+
         }
 
         //DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
