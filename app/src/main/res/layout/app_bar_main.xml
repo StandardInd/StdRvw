@@ -22,6 +22,16 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main" />
+    <include
+        android:id="@+id/include_main"
+        layout="@layout/content_main"
+        android:visibility="visible" />
+
+    <include
+        android:id="@+id/include_cat"
+        layout="@layout/content_activity_categorie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
 
 </android.support.design.widget.CoordinatorLayout>
