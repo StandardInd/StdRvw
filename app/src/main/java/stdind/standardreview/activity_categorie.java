@@ -83,14 +83,19 @@ public class activity_categorie extends AppCompatActivity
             startActivity(new Intent(activity_categorie.this, MainActivity.class));
 
         } else if (id == R.id.nav_account) {
+            startActivity(new Intent(activity_categorie.this, activity_account.class));
 
         } else if (id == R.id.nav_myreview) {
+            startActivity(new Intent(activity_categorie.this, activity_myreview.class));
 
         } else if (id == R.id.nav_seguiti) {
+            startActivity(new Intent(activity_categorie.this, activity_seguiti.class));
 
         } else if (id == R.id.nav_cronologia) {
+            startActivity(new Intent(activity_categorie.this, activity_cronologia.class));
 
         } else if (id == R.id.nav_crediti) {
+            startActivity(new Intent(activity_categorie.this, activity_crediti.class));
 
         } else if (id == R.id.nav_aggiungi_un_topic) {
 

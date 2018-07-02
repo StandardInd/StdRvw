@@ -89,14 +89,19 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_home) {
 
         } else if (id == R.id.nav_account) {
+            startActivity(new Intent(MainActivity.this, activity_account.class));
 
         } else if (id == R.id.nav_myreview) {
+            startActivity(new Intent(MainActivity.this, activity_myreview.class));
 
         } else if (id == R.id.nav_seguiti) {
+            startActivity(new Intent(MainActivity.this, activity_seguiti.class));
 
         } else if (id == R.id.nav_cronologia) {
+            startActivity(new Intent(MainActivity.this, activity_cronologia.class));
 
         } else if (id == R.id.nav_crediti) {
+            startActivity(new Intent(MainActivity.this, activity_crediti.class));
 
         } else if (id == R.id.nav_aggiungi_un_topic) {
 

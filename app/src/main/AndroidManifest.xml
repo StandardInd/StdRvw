@@ -25,7 +25,27 @@
             android:name=".activity_categorie"
             android:label="@string/title_activity_categorie"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".activity_settings"></activity>
+        <activity android:name=".activity_settings" />
+        <activity
+            android:name=".activity_account"
+            android:label="@string/title_activity_account"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity_myreview"
+            android:label="@string/title_activity_myreview"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity_seguiti"
+            android:label="@string/title_activity_seguiti"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity_crediti"
+            android:label="@string/title_activity_crediti"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity_cronologia"
+            android:label="@string/title_activity_cronologia"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
