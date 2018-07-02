@@ -30,43 +30,31 @@
     <include
         android:id="@+id/include_cat"
         layout="@layout/content_activity_categorie"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:visibility="invisible" />
-
-    <include
-        android:id="@+id/include_account"
-        layout="@layout/content_activity_account"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:visibility="invisible" />
 
     <include
         android:id="@+id/include_myreview"
         layout="@layout/content_activity_myreview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+    <include
+        android:id="@+id/include_account"
+        layout="@layout/content_activity_account"
         android:visibility="invisible" />
 
     <include
         android:id="@+id/include_seguiti"
         layout="@layout/content_activity_seguiti"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:visibility="invisible" />
 
     <include
         android:id="@+id/include_crediti"
         layout="@layout/content_activity_crediti"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:visibility="invisible" />
 
     <include
         android:id="@+id/include_cronologia"
         layout="@layout/content_activity_cronologia"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:visibility="invisible" />
 
 </android.support.design.widget.CoordinatorLayout>
